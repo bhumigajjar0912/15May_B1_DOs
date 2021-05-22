@@ -32,7 +32,6 @@ print("_"*15+'END'+"_"*15+'\n\n')
 #Question 3
 print('Question 3')
 
-
 s = input('Enter String: ')
 alpha_set = set(string.ascii_lowercase)
 s = s.lower()
