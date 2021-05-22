@@ -1,4 +1,4 @@
-#regitration request
+#regitratin request
 ask = input('Do you want to register?(y/n)')
 if ask.lower() != 'n' and ask.lower() != 'y':
     while ask.lower() != 'n' or ask.lower() != 'y':
@@ -6,6 +6,7 @@ if ask.lower() != 'n' and ask.lower() != 'y':
         ask = input('Do you want to register?(y/n)')
 
 #user input and password check
+
 if ask == 'y':
     username = input('Enter your usename: ')
     while(True):
@@ -80,3 +81,6 @@ elif tasks == 3:
         for j in range(1,i+1):
             print(j,end='')
         print('')
+                
+
+    
