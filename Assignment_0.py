@@ -154,6 +154,21 @@ print("_"*15+'END'+"_"*15+'\n\n')
 #Question 10
 print('Question 10')
 
+class Generator:
+    lst = []
+    # def __init__(self):
+    #     pass
+    def generator(self, n):
+        for i in range(0,n):
+            if i%7 == 0:
+                yield i
+        return Generator.lst
+
+m = Generator() 
+n = int(eval(input('Enter the value of n: ')))
+for i in m.generator(n):
+    print(i)
+
 print("_"*15+'END'+"_"*15+'\n\n')
 #
 #
